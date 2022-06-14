@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <title>Hendi</title>
+</head>
+<body>
+    <nav>
+        
+        <div class="logo">
+            <h2><a href="index.html">Hendi</h2>
+        </div>
+        <ul class="nav-link" id="toggleNav">
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+            <li>
+                <a href="#about">About</a>
+            </li>
+            <li>
+                <a href="#skill">Skills</a>
+            </li>
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+        </ul>
+        <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+        </div>
+    </nav>
+
+    <!--Home -->
+    <div class="wrapper">
+        <!--=== home ===-->
+        <section id="home">
+            <img src="img/Profile.PNG" style="width: 500px;"/>
+            <div class="kolom">
+                <p class="deskripsi">Hi, my name is </p>
+                <h2>Hendi Rahadiansyah</h2>
+                <br>
+                <p><a href="https://drive.google.com/file/d/1dNIRwH_TFxCVzfweZh2Csebx2an-E2MW/view?usp=sharing"><button class="btn"><i class="fa fa-download" aria-hidden="true"></i> Download CV</button></p></a>
+            </div>
+        </section>
+    </div>
+
+        <!-- About Me-->
+        <section id="about" class="about-area about-two" data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-duration="1500">
+            <!--======  Start Section ======-->
+            <div class="section-title-five">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="content">
+                                <h2 class="abouth2">About Me</h2>
+                                <hr>
+                                <p class="pabout">
+                                    Hello, my name is Hendi Rahadiansyah.
+                                    I graduated from SMA GIKI 2
+                                    Surabaya in 2019.
+                                    I am able to adapt quickly and
+                                    work closely with the team.
+                                    I'm very excited to get started
+                                    work and contribution with
+                                    good.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- row -->
+                </div>
+                <!-- container -->
+            </div>
+        </section>
+
+        <!--=== skill area ===-->
+        <section id="skill" class="skill-one" data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-duration="1500">
+            <div class="section-title-five">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="content">
+                                <h2 class="abouth2">My Skill</h2>
+                                <hr>
+                            </div>
+                        </div>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <div class="skill-bar" >
+                            <div class="bar">
+                                <div class="info">
+                                    <span>HTML</span>
+                                </div>
+                                <div class="progress-line html"><span></span></div>
+                            </div>
+                            <div class="bar">
+                                <div class="info">
+                                    <span>CSS</span>
+                                </div>
+                                <div class="progress-line css"><span></span></div>
+                            </div>
+                            <div class="bar">
+                                <div class="info">
+                                    <span>Ms. Office</span>
+                                </div>
+                                <div class="progress-line office"><span></span></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- row -->
+                </div>
+                <!-- container -->
+            </div>
+        </section>
+
+        <!--contact -->
+        <section id="contact" data-aos="zoom-in" data-aos-anchor-placement="bottom-bottom" data-aos-duration="1500">
+            <div class="section-title-five">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="content">
+                                <h2 class="abouth2">Contact Me</h2>
+                                <hr>
+                            </div>
+                        </div>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                            <form class="contact-box" name="my-porto-contact">
+                                <div class="alert alert-success alert-dismissible fade show d-none my-alert" role="alert">
+                                    <strong>Thank You!</strong> Your message has been sent 
+                                </div>
+                                <input type="text" class="field" placeholder="Name" name="nama">
+                                <input type="email" class="field" placeholder="Email" name="email">
+                                <input type="text" class="field" placeholder="Phone" name="phone">
+                                <textarea placeholder="Message" class="field" name="pesan"></textarea>
+                                <button type="submit" class="btn btn-primary btn-contact">Send</button>
+
+                                <button class="btn btn-primary btn-loading d-none" type="button" disabled>
+                                    <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+                                    Loading...
+                                </button>
+                            </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="icon-wrapper">
+                <a href="https://instagram.com/hendirahad?igshid=YmMyMTA2M2Y="><i class="fa fa-instagram icon"></i></a>
+                <a href="http://wa.me/6281217773541"><i class="fa fa-whatsapp icon"></i></a>
+            </div>
+        </section>
+
+        <footer>
+            <p>Copyright © 2022 HENDI</p>
+        </footer>
+
+
+        <!-- animated scroll-->
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+          AOS.init();
+        </script>
+
+        <script type="text/javascript" src="app.js"></script>
+        <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbylDEoQQbQmIQowdHNyt4MZ29Pmo6G3saRmYMdoDu_YWjKS2HW7wttTjTBK7cI1aLcy/exec';
+            const form = document.forms['my-porto-contact'];
+            const btnContact = document.querySelector('.btn-contact')
+            const btnLoading = document.querySelector('.btn-loading')
+            const myAlert = document.querySelector('.my-alert')
+
+
+            form.addEventListener('submit', e => {
+              e.preventDefault()
+
+              btnLoading.classList.toggle('d-none');
+              btnContact.classList.toggle('d-none');
+
+              fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response => {
+                    btnLoading.classList.toggle('d-none');
+                    btnContact.classList.toggle('d-none');
+
+                    //tampilkan alert//
+                    myAlert.classList.toggle('d-none');
+                    //reset form//
+                    form.reset();
+                    console.log('Success!', response);
+                })
+                .catch(error => console.error('Error!', error.message))
+            })
+        </script>
+</body>
+</html>
